@@ -73,6 +73,22 @@
         "xstring": "cpp",
         "xtr1common": "cpp",
         "xtree": "cpp",
-        "xutility": "cpp"
-    }
+        "xutility": "cpp",
+        "*.rh": "cpp",
+        "any": "cpp",
+        "deque": "cpp",
+        "coroutine": "cpp",
+        "regex": "cpp",
+        "set": "cpp",
+        "variant": "cpp",
+        "codecvt": "cpp",
+        "ranges": "cpp",
+        "span": "cpp",
+        "cstdarg": "cpp",
+        "expected": "cpp",
+        "numbers": "cpp",
+        "random": "cpp",
+        "*.def": "cpp",
+        "queue": "cpp"
+    },
 }
