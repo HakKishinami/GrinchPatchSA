@@ -16,8 +16,8 @@ void PatchMgr::Initialize() {
         gLogger->info("CargrpVariationFix enabled");
     }
 
-    if (gConfig.ReadBoolean("Fixes", "HeliFix", false)) {
+    if (gConfig.ReadBoolean("Fixes", "HelicopterFix", false)) {
         HeliFix::Inject();
-        gLogger->info("HeliFix enabled");
+        gLogger->info("HelicopterFix enabled");
     }
 }
