@@ -1,0 +1,9 @@
+#pragma once
+
+class VehLightPatch {
+public:
+	VehLightPatch() = delete;
+    VehLightPatch(VehLightPatch&) = delete;
+
+	static void Inject();
+};
