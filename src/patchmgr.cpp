@@ -13,7 +13,7 @@ void PatchMgr::Initialize() {
 
     if (gConfig.ReadBoolean("Fixes", "CargrpVariationFix", false)) {
         CargrpVariationPatch::Inject();
-        gLogger->info("CargrpVariationFix enabled");
+        gLogger->info("CargrpVariationFix requested; backend selection deferred");
     }
 
     if (gConfig.ReadBoolean("Fixes", "HelicopterFix", false)) {
